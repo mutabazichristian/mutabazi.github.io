@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}   
+
+h1{
+    padding: 2vh;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0 2vh;
+    justify-content: space-between;
+    transition:  ease-in-out 0.5s;
+}
+
+.navbar ul li{
+    padding: 2vh;
+    margin: 0 1vh;
+}
+
+.navbar ul li:hover{
+    border-bottom: 1px dotted white;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+}
