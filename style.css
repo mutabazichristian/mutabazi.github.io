@@ -31,6 +31,10 @@ h1{
     margin: 0 1vh;
 }
 
+.selected {
+    border-bottom: 1px dotted white;
+}
+
 .navbar ul li:hover{
     border-bottom: 1px dotted white;
 }
