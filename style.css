@@ -42,3 +42,19 @@ h1{
 .navbar ul li a{
     text-decoration: none;
 }
+
+.content{
+    margin-top: 4vh;
+}
+.content li{
+    font-size: 3vh;
+    list-style-type: none;
+}
+
+.content li a {
+    text-decoration: none;
+}
+
+.content li a:hover {
+    text-decoration: underline;
+}
