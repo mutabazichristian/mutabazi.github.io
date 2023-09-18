@@ -12,26 +12,30 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border: 1px solid white;
+    height: 98vh;
+    margin: 1vh 1vw;
 }
 
 h1 {
     padding: 2vh 4vh;
     border: 1px solid white;
-    margin: 2vh 0;
     width: 80%;
     text-align: center;
 }
 
-h1 a{
+h1 a {
     text-decoration: none;
 }
 
-h1:hover{ 
+h1:hover {
     border: 1px dotted white;
 }
-.navbar{
+
+.navbar {
     width: 80%;
 }
+
 .navbar ul {
     list-style-type: none;
     display: flex;
@@ -42,15 +46,15 @@ h1:hover{
 
 .navbar ul li {
     padding: 2vh 4vh;
-    border: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
-.selected li{
-    border: 1px dotted white;
+.selected li {
+    border-bottom: 1px dotted white;
 }
 
 .navbar ul li:hover {
-    border: 1px dotted white;
+    border-bottom: 1px dotted white;
 }
 
 .navbar ul li a {
@@ -74,6 +78,11 @@ h1:hover{
     text-decoration: none;
 }
 
+.content p {
+    padding: 1vh;
+    text-align: justify;
+}
+
 .content li a:hover {
     text-decoration: underline;
 }
@@ -83,5 +92,6 @@ h1:hover{
     text-align: justify;
     display: flex;
 }
+
 
 @media (min-width) {}
