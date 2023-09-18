@@ -18,26 +18,30 @@ h1 {
     padding: 2vh 4vh;
     border: 1px solid white;
     margin: 2vh 0;
+    width: 80%;
+    text-align: center;
 }
 
 h1 a{
     text-decoration: none;
 }
 
-h1:hover{
+h1:hover{ 
     border: 1px dotted white;
+}
+.navbar{
+    width: 80%;
 }
 .navbar ul {
     list-style-type: none;
     display: flex;
     padding: 0 2vh;
-    justify-content: space-between;
+    justify-content: space-around;
     transition: ease-in-out 0.5s;
 }
 
 .navbar ul li {
     padding: 2vh 4vh;
-    margin: 0 1vh;
     border: 1px solid white;
 }
 
@@ -55,11 +59,15 @@ h1:hover{
 
 .content {
     margin-top: 4vh;
+    border: 1px solid white;
+    width: 80%;
+    min-height: 70vh;
 }
 
 .content li {
     font-size: 3vh;
     list-style-type: none;
+    padding: 2vh;
 }
 
 .content li a {
