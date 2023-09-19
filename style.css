@@ -13,7 +13,7 @@ body {
     justify-content: center;
     flex-direction: column;
     border: 1px solid white;
-    height: 98vh;
+    min-height: 98vh;
     margin: 1vh 1vw;
 }
 
@@ -78,9 +78,12 @@ h1:hover {
     text-decoration: none;
 }
 
-.content p {
-    padding: 1vh;
-    text-align: justify;
+.content .text {
+    padding: 5vh;
+    text-align: justifyj;
+    max-width: 70%;
+    justify-content: center;
+
 }
 
 .content li a:hover {
